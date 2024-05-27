@@ -86,13 +86,7 @@ fieldset {
      justify-content: space-around;
 }
 
-/* select option {
-     color: green;
-}
 
-select option::selection {
-     color: red;
-} */
 select {
      color: green;
 }
