@@ -35,6 +35,7 @@
               name="cemail"
               id="cemail"
               placeholder="user@user.com"
+              required
             />
           </div>
           <div>
@@ -95,15 +96,37 @@
           <fieldset>
             <legend>Age</legend>
             <div>
-              <span><input type="radio" name="age" value="" />15-20</span>
-              <span><input type="radio" name="age" value="" />20-30</span>
-              <span><input type="radio" name="age" value="" />31-40</span>
+              <span
+                ><input type="radio" name="age" value="" id="option-1" /><label
+                  for="option-1"
+                  >15-20</label
+                ></span
+              >
+              <span
+                ><input type="radio" name="age" value="" id="option-2" /><label
+                  for="option-2"
+                  >20-30</label
+                ></span
+              >
+              <span
+                ><input type="radio" name="age" value="" id="option-3" /><label
+                  for="option-3"
+                  >31-40</label
+                ></span
+              >
             </div>
             <div>
-              <span> <input type="radio" name="age" value="" />41-50</span>
+              <span>
+                <input type="radio" name="age" value="" id="option-4" /><label
+                  for="option-4"
+                  >41-50</label
+                ></span
+              >
               <span
-                ><input type="radio" name="age" value="" />Prefer not to
-                say</span
+                ><input type="radio" name="age" value="" id="option-5" /><label
+                  for="option-5"
+                  >Prefer not to say</label
+                ></span
               >
             </div>
           </fieldset>
